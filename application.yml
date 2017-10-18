@@ -1,0 +1,16 @@
+#app
+server:
+    port: 8080
+
+#aliyun-oss
+ITOSSBeijing:
+  bucketName: skong-dev
+  accessKeyId: LTAIr1bjKx6lhIBD
+  accessKeySecret: ozAiyJ0FPUvqWg7TjumAeTdEkVzVQh
+  inEndpoint: oss-cn-beijing.aliyuncs.com/
+#OSSBeijing.bucketName=${ITOSSBeijing.bucketName}
+#OSSBeijing.accessKeyId=${ITOSSBeijing.accessKeyId}
+#OSSBeijing.accessKeySecret=${ITOSSBeijing.accessKeySecret}
+#OSSBeijing.inEndpoint=oss-cn-beijing-internal.aliyuncs.com/
+#OSSBeijing.outEndpoint=${ITOSSBeijing.bucketName}.skong.com/
+#OSSBeijing.imgEndpoint=${ITOSSBeijing.bucketName}-tools.skong.com/
